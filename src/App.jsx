@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Feedback from "./components/Feedback/Feedback.jsx";
 import Options from "./components/Options/Options.jsx";
 import Notification from "./components/Notification/Notification.jsx";
+import Description from "./components/Description/Description.jsx";
 
 const App = () => {
   const [feedback, setFeedback] = useState({
@@ -39,10 +40,7 @@ const App = () => {
   return (
     <div>
       <h1>Sip Happens Café</h1>
-      <p>
-        Please leave your feedback about our service by selecting one of the
-        options below.
-      </p>
+      <Description />
       <Options
         updateFeedback={updateFeedback}
         resetFeedback={resetFeedback}
