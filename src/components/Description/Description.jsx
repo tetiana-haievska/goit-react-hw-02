@@ -1,9 +1,12 @@
 const Description = () => {
   return (
-    <p>
-      Please leave your feedback about our servise by selecting one of the
-      options below.
-    </p>
+    <div>
+      <h1>Sip Happens Café</h1>
+      <p>
+        Please leave your feedback about our servise by selecting one of the
+        options below.
+      </p>
+    </div>
   );
 };
 
